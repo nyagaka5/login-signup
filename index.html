@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Homepage</title>
+</head>
+<header>
+    <img class="rock" src="images/rockstar.jpg">
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contacts</a>
+            <a href="#">Logo</a>
+            <button onclick="
+            Login();
+            "
+
+            class="btn-login">Login</button>
+        </nav>
+</header>   
+<body>
+ 
+
+<div class="wrapper">
+    <div class="form-box-login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="password" required>
+                <i class="fa fa-eye" id="togglePassword" style="margin-left:14px; cursor: pointer;"></i>
+                <label>Password</label>
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox"><label>Remember me</label>
+                <a href="#">Forgot Password</a>
+
+            </div>
+
+                <button type="submit" class="btn"> <a style="text-decoration: none; color: white;" href="homepage.html">Login</a> </button>
+            <div class="login-register-link">
+                <p class="reg-here">Dont have an account?<a class="reg-here1" href="Register here">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+  <script src="index.js">
+
+
+
+  </script>
+</body>
+</html>
