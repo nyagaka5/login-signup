@@ -23,15 +23,19 @@ header{
     position: fixed;
     height: 100px;
     top: 0;
-    right: 0;
-    left: 0;
-    display: flex;
+    
     width: 100%;
-    padding: 20px 100px;
-    justify-content: space-between;
-    align-items: center;
+
+  
     z-index: 999;
 
+}
+
+.first-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation a {
@@ -42,7 +46,18 @@ header{
    padding: 10px;
    font-weight: 700;
    font-size: 1.1em;
+  
 
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a{
+    font-weight: 700;
 }
 
 .navigation a::after{

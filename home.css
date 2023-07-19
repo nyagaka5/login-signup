@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   position: fixed;
+    right: 0;
+    width: 100%;
+
+    background-color: brown;
+
+  
+}
+
+.nav1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
